@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #0F1115;
+  --bg-surface: #181C22;
+  --bg-surface-elevated: #1E232B;
+  --bg-surface-hover: #242A34;
+  --border-subtle: #262C36;
+  --border-highlight: #343C4A;
+  --text-main: #F5F7FA;
+  --text-muted: #9CA3AF;
+  --accent-brand: #C7FF3D;
+  --accent-brand-hover: #B5F028;
+  --accent-brand-subtle: rgba(199, 255, 61, 0.12);
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --error: #EF4444;
+  --purple: #8B5CF6;
+}
+
+html, body {
+  background-color: #0F1115;
+  color: #F5F7FA;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Helvetica, Arial, sans-serif;
+  color-scheme: dark;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0F1115;
+}
+::-webkit-scrollbar-thumb {
+  background: #262C36;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3A4352;
+}
+
+/* Brand Button & Utility Classes */
+.btn-primary-urso {
+  background-color: #C7FF3D;
+  color: #0F1115;
+  font-weight: 700;
+  transition: all 0.15s ease-in-out;
+}
+.btn-primary-urso:hover {
+  background-color: #b8f72a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(199, 255, 61, 0.25);
+}
+.btn-primary-urso:active {
+  transform: translateY(0);
+}
+
+.btn-secondary-urso {
+  background-color: #181C22;
+  color: #F5F7FA;
+  border: 1px solid #262C36;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+.btn-secondary-urso:hover {
+  background-color: #1E232B;
+  border-color: #343C4A;
+  color: #FFFFFF;
+}
+
+.card-urso {
+  background-color: #181C22;
+  border: 1px solid #262C36;
+  border-radius: 1rem;
+}

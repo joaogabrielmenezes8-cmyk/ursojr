@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700;900&amp;display=swap');
+      .urso-text {
+        font-family: 'Fredoka', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 900;
+        font-size: 158px;
+        letter-spacing: -2px;
+      }
+      .tagline-text {
+        font-family: 'Fredoka', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 44px;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Left Bear Symbol (scale down & place at left) -->
+  <g transform="translate(160, 165) scale(0.68)">
+    <path d="
+      M -115 -100
+      C -150 -165 -65 -215 -35 -145
+      C -15 -145 15 -145 35 -145
+      C 65 -215 150 -165 115 -100
+      C 185 -50 205 70 145 145
+      C 100 195 20 205 -35 200
+      C -130 195 -195 125 -190 20
+      C -185 -55 -155 -90 -115 -100
+      Z
+    " fill="#FFFFFF" stroke="#000000" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <circle cx="-65" cy="-20" r="18" fill="#000000" />
+    <path d="M 50 -28 L 76 -7 L 50 14" fill="none" stroke="#000000" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+
+    <ellipse cx="0" cy="5" rx="30" ry="22" fill="#000000" />
+    <path d="M 0 25 L 0 45" stroke="#000000" stroke-width="14" stroke-linecap="round" />
+    <path d="M -16 48 C -8 60 8 60 16 48" fill="none" stroke="#000000" stroke-width="14" stroke-linecap="round" />
+
+    <g transform="translate(75, 105) rotate(10)">
+      <path d="
+        M -55 -40
+        L 45 -40
+        C 58 -40 68 -28 65 -15
+        L 45 45
+        C 40 58 25 65 12 65
+        L -40 65
+        C -55 65 -65 52 -62 38
+        L -52 -25
+        C -54 -33 -48 -40 -35 -40
+        Z
+      " fill="#C7FF3D" stroke="#000000" stroke-width="20" stroke-linejoin="round"/>
+      <path d="M -22 8 L -2 28 L 32 -10" fill="none" stroke="#000000" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+
+  <!-- Right Typography "URSO JR." -->
+  <g transform="translate(320, 185)">
+    <!-- Black Outline Behind URSO -->
+    <text x="0" y="0" class="urso-text" fill="#000000" stroke="#000000" stroke-width="26" stroke-linejoin="round" stroke-linecap="round">URSO</text>
+    <!-- White Foreground URSO -->
+    <text x="0" y="0" class="urso-text" fill="#FFFFFF">URSO</text>
+
+    <!-- Black Outline Behind JR. -->
+    <text x="400" y="0" class="urso-text" fill="#000000" stroke="#000000" stroke-width="26" stroke-linejoin="round" stroke-linecap="round">JR.</text>
+    <!-- Lime Green Foreground JR. -->
+    <text x="400" y="0" class="urso-text" fill="#C7FF3D">JR.</text>
+
+    <!-- Tagline: "Seu estagiário com IA." -->
+    <!-- Black Outline -->
+    <text x="5" y="68" class="tagline-text" fill="#000000" stroke="#000000" stroke-width="12" stroke-linejoin="round" stroke-linecap="round">Seu estagiário com IA.</text>
+    <!-- White Fill -->
+    <text x="5" y="68" class="tagline-text" fill="#FFFFFF">Seu estagiário com IA.</text>
+  </g>
+</svg>

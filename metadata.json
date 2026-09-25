@@ -1,0 +1,6 @@
+{
+  "name": "Assessor IA",
+  "description": "URSO JR. — Seu estagiário com IA para organizar agenda, tarefas, lembretes e rotina pelo WhatsApp.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
